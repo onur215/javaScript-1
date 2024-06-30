@@ -19,6 +19,7 @@ console.log(toplam);
 // GLOBAL ALAN
 
 const abc = 50
+let dd = 20
 
 
 

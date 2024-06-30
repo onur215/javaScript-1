@@ -103,6 +103,7 @@ console.log(isNaN(result));
 
 let personelList = ["ali", "veli", "ahmet"];
 let personmelData = { name: "ali", surname: "Hakkı", age: 35 };
+console.log(personelList);
 
 function hesapla() {
   // ****
