@@ -1,9 +1,22 @@
-let i = 1
+// let i = 1
+// do {
+//     console.log(i, "cohort-17");
+//     i++
+// }while(i <= 10)
+//     console.log("döngü bitti");
+
+
+let devam = ""
+
 do {
-    console.log(i, "cohort-17");
-    i++
-}while(i <= 10)
-    console.log("döngü bitti");
-
-
+    let ders = prompt("ders adını giriniz")
+    let vize = +prompt("vize notunu giriniz")
+    let final = +prompt("final notunu giriniz")
     
+    let ortalama = vize * 0.3 + final * 0.7
+    
+    let sonuc = ortalama >= 50 ? `${ders} dersinden ${ortalama} ile geçtiniz` : `${ders} dersinden ${ortalama} ile kaldınız`
+    console.log(sonuc);
+    
+    devam = prompt("hesaplamaya devam etmek istiyorsanız E tuşuna basınız")
+} while(devam.toLowerCase() == "e")
