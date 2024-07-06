@@ -27,7 +27,7 @@ for(let i = 10; i >= 0; i--){
 
 // Örnek: iki sayı arasındaki sayıların toplamını bulan kodu yazınız
 
-let num1 = 4
+let num1 = 5
 let num2 = 6
 let sum = 0
 if(num1 > num2){
