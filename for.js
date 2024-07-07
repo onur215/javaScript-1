@@ -43,7 +43,7 @@ if(num1 > num2){
 //BERAK - CONTİNUE
 
 for(let i = 0; i <= 10; i++){
-   if(i == 7){
+   if(i == 6){
     break
    }
    console.log(i);

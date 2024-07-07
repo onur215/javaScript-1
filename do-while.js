@@ -10,13 +10,13 @@ let devam = ""
 
 do {
     let ders = prompt("ders adını giriniz")
-    let vize = +prompt("vize notunu giriniz")
-    let final = +prompt("final notunu giriniz")
+    let vize = +prompt("vize notunuzu giriniz")
+    let final = +prompt("final notunuzu giriniz")
     
     let ortalama = vize * 0.3 + final * 0.7
     
     let sonuc = ortalama >= 50 ? `${ders} dersinden ${ortalama} ile geçtiniz` : `${ders} dersinden ${ortalama} ile kaldınız`
     console.log(sonuc);
     
-    devam = prompt("hesaplamaya devam etmek istiyorsanız E tuşuna basınız")
+    devam = prompt("hesaplamaya devam etmek istiyorsanız E tuşuna basınız.")
 } while(devam.toLowerCase() == "e")
