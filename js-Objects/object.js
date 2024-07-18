@@ -67,3 +67,14 @@ console.log("deepCopy", deepCopyPersonel);
 personel.lastName = "Mecnun"
 console.log("personel listesi", personel);
 console.log("deepCopy", deepCopyPersonel);
+
+
+let numberAndLetters = ["a", 2, "n", 5]
+for (const item of numberAndLetters){
+    console.log(item);
+}
+
+// for(const employee of employeeList){
+//     console.log(employee);
+// }
+
