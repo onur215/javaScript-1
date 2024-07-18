@@ -52,3 +52,18 @@ personel["lastName"] = "Yılmaz"
 console.log(personel);
 
 console.clear()
+
+const elemanListesi = personel
+console.log("personel listesi", personel);
+console.log("eleman listesi", elemanListesi);
+
+personel.name = "Leyla"
+console.log("*** kopyalamadan sonra ****");
+console.log(personel);
+console.log(elemanListesi);
+
+let deepCopyPersonel = JSON.parse(JSON.stringify(personel))
+console.log("deepCopy", deepCopyPersonel);
+personel.lastName = "Mecnun"
+console.log("personel listesi", personel);
+console.log("deepCopy", deepCopyPersonel);
