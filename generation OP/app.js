@@ -77,17 +77,17 @@ const person3 = {
 //printPerson3(person2)
 //printPerson3(person3)
 
-const user = {
-    name: "Mark",
-    age: 30,
-    address: {
-      street: "123 Main St",
-      city: "Istanbul",
-      zip: "12345",
-    },
-  };
+// const user = {
+//     name: "Mark",
+//     age: 30,
+//     address: {
+//       street: "123 Main St",
+//       city: "Istanbul",
+//       zip: "12345",
+//     },
+//   };
 
-  console.log(user.address.city);
+//   console.log(user.address.city);
 
   //const {name, address} = user// adres obje olarak döner
   //console.log(name, address); // adres obje olarak döner
@@ -116,10 +116,49 @@ const user = {
 // const {name,location:{country,address:{city:companyCity}}} = company
 // console.log(name,country,companyCity);
 
-const num = [1,2,3,4,5]
+// const num = [1,2,3,4,5]
 
-let [first,second,third] = num
+// let [first,second,third] = num
 
-console.log(first);
-console.log(second);
-console.log(third);
+// console.log(first);
+// console.log(second);
+// console.log(third);
+
+// const nastedArray = [1,2,[3,4],5]
+
+// let [,,nested,besinci] = nastedArray
+// console.log(nested);
+// console.log(nested,besinci);
+
+// let [bir,iki,[uc,dort],bes] = nastedArray
+// console.log(bir,iki,uc,dort,bes);
+
+// const person5 = {
+//     ad: "Hazel",
+//     soyad: "Nut",
+//     is: "team lead",
+//     yas: 40,
+//   }
+
+//   const {soyad, yas, ...geriKalanlar} = person5
+//   console.log(soyad,yas,geriKalanlar);
+
+// const topla = (a,b) => a+b 
+// console.log(topla(1,2,3,4,5,6));
+
+// const toplam = (...sayilar) => {
+//     // console.log(sayilar);
+//     return sayilar.reduce((a,b)=>a+b)
+// }
+// console.log(toplam(1,2,3,4,5,6));
+
+const ucanAraclar = ["helicopter", "drone", "ucak", "fuze"]
+const karaAracları = ["araba", "bisiklet", "marti"]
+
+const tumAraclar = [ucanAraclar,karaAracları] // nasted(iç içe) array oluşturur
+console.log(tumAraclar);
+
+const tumAraclar2 = [...karaAracları,...ucanAraclar]
+console.log(tumAraclar2);
+
+console.log(...ucanAraclar);
