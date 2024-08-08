@@ -18,3 +18,13 @@
 
 //* Senkron
 //* ------------------------------------------------
+
+// const wait = (ms) => {
+
+//     const start = new Date().getTime()
+//     while( new Date().getTime() < start + ms){
+//         ;
+//     }
+// }
+
+// wait(2000)
