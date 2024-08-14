@@ -26,7 +26,7 @@ let dd = 20
 // LOCAL ALAN
 
 function test() {
-  let deneme = "denendi ve başarılı olundu"
+  let deneme = "denendi ve başarılıs olundus"
   console.log(deneme);
 }
 

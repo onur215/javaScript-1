@@ -6,4 +6,4 @@ console.log("burası harici js alanı");
 
 // alert("Lütfen Dikkat")
 
-document.write(" <h1> JAVASCRİPT İNTRO </h1>")
+document.write(" <h1> JAVASCRİPT İNTROs </h1>")

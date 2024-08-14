@@ -30,4 +30,4 @@
 //? then() ve catch() metotlari promise dondururler.
 //? Zincirleme olarak kullanilabilirler.
 
-console.log("ss")
+console.log("DFGD")
