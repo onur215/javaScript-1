@@ -9,7 +9,7 @@
 let devam = ""
 
 do {
-    let ders = prompt("ders adınızı giriniz")
+    let ders = prompt("ders adınızı girinizz")
     let vize = +prompt("vize notunuzu giriniz")
     let final = +prompt("final notunuzu giriniz")
     
