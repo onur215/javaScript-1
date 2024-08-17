@@ -103,3 +103,4 @@ else{
 // else{
 //     console.log("yanlış");
 // }
+console.log("sdg");

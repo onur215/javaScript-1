@@ -31,4 +31,4 @@ switch (operator) {
     default:
         break;
 }
-console.log("sonuçç:", sonuc.toFixed(2));
+console.log("sonuç:", sonuc.toFixed(2));

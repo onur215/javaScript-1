@@ -1,4 +1,4 @@
 
 console.log(x);
 
-var x = 20
+var x = 10
